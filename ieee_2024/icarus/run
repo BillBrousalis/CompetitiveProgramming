@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Using input:"
+cat "$1.in"
+make && ./solve < "$1.in"
